@@ -24,13 +24,13 @@ results = st.session_state.get("results", [])
 
 # **2. Cargar imágenes**
 chicle_images = {
-    "rojo": "/workspaces/maquina.chicles/images/red_ball.png",
-    "azul": "/workspaces/maquina.chicles/images/blue_ball.png",
-    "amarillo": "/workspaces/maquina.chicles/images/yellow_ball.png",
-    "verde": "/workspaces/maquina.chicles/images/green_ball.png"
+    "rojo": "images/red_ball.png",
+    "azul": "images/blue_ball.png",
+    "amarillo": "images/yellow_ball.png",
+    "verde": "images/green_ball.png"
 }
 
-machine_image = "/workspaces/maquina.chicles/images/machine.png"
+machine_image = "images/machine.png"
 
 # **3. Mostrar la máquina con las bolas gráficamente**
 st.subheader("Vista de la Máquina de Chicles")
